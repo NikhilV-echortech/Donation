@@ -1,0 +1,171 @@
+body {
+    overflow-x: hidden;
+}
+
+.ad_row {
+    margin-bottom: 0.7rem;
+}
+
+.main-container {
+    background-color: #FDEC03;
+    padding: 0.75rem;
+}
+
+.custom-row {
+    height: 4vh;
+    /* 5% of viewport height */
+}
+
+.logo {
+    max-height: 100%;
+}
+
+.text-container {
+    font-size: 1.2rem;
+    margin-top: 0.5rem;
+    overflow: hidden;
+}
+
+.scrolling-text {
+    white-space: nowrap;
+    animation: scroll 30s linear infinite;
+    /* Adjust duration as needed */
+}
+
+@keyframes scroll {
+    0% {
+        transform: translateX(100%);
+    }
+
+    100% {
+        transform: translateX(-100%);
+    }
+}
+
+.btn-donate {
+    background-color: white;
+    color: black;
+    font-weight: bold;
+    border-radius: 1.5rem;
+
+}
+
+
+@media (max-width: 576px) {
+
+    .ad_row {
+        margin-bottom: 0;
+    }
+
+    .main-container {
+        margin: 0;
+        padding: 1rem;
+    }
+
+    .logo {
+        display: none;
+    }
+
+    .custom-row {
+        height: 20px;
+        /* Change height to auto for mobile devices */
+    }
+
+    .text-container {
+        font-size: 1rem;
+        /* width: 100px; */
+        overflow: hidden;
+        margin-right: 0;
+        margin-top: 0;
+    }
+
+    .scrolling-text {
+        white-space: nowrap;
+        animation: scroll 5s linear infinite;
+        /* Remove animation for small devices */
+    }
+
+    .btn-donate {
+        height: 40%;
+        width: 100%;
+        font-size: 12px;
+        /* Adjust button width for small devices */
+        margin-top: -1.5rem;
+        /* padding-right: 0.5rem; */
+        /* Add margin to the button */
+        font-size: 14px;
+    }
+
+    .main-container {
+        padding-left: 0;
+        padding-right: 0;
+    }
+
+    .custom-row>div {
+        margin-right: 5px;
+    }
+
+    .nav-link {
+        border: none;
+        padding: none;
+
+    }
+
+    .nav-link:hover {
+        border: none;
+        padding: none;
+    }
+
+    .ts_s1_h5 {
+        font-size: 14px;
+    }
+
+    .ts_s1_h1 {
+        font-size: 21px !important;
+        line-height: normal !important;
+    }
+}
+
+.navbar {
+    justify-content: center;
+    background-color: #2F759C;
+}
+
+.nav-link {
+    color: white !important;
+    border-radius: 2rem;
+    border: 1px solid transparent;
+    padding-left: 1rem !important;
+    padding-right: 1rem !important;
+    margin: 0px 1rem;
+    /* Set color of nav links to white */
+}
+
+.nav-link:hover {
+
+    border-color: white;
+    /* padding: 8px; */
+    /* Increase padding to make the border more visible */
+}
+
+.navbar-toggler-icon {
+    color: white !important;
+    /* Set background color of toggler icon lines */
+}
+
+
+
+.navbar-toggler {
+    border: 1px solid white;
+}
+
+.navbar-toggler-icon {
+    background-image: url("data:image/svg+xml,%3csvg xmlns='http://www.w3.org/2000/svg' viewBox='0 0 30 30'%3e%3cpath stroke='rgba%28255, 255, 255, 0.75%29' stroke-linecap='round' stroke-miterlimit='10' stroke-width='2' d='M4 7h22M4 15h22M4 23h22'/%3e%3c/svg%3e")
+}
+
+.navbar-toggler:focus,
+.navbar-toggler:active,
+.navbar-toggler-icon:focus {
+    outline: none;
+    box-shadow: none;
+}
