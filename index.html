@@ -4,7 +4,7 @@
 <head>
   <meta charset="UTF-8">
   <meta name="viewport" content="width=device-width, initial-scale=1.0">
-  <title>Scrolling Text Example</title>
+  <title>D-P</title>
   <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.3/dist/js/bootstrap.bundle.min.js"
     integrity="sha384-YvpcrYf0tY3lHB60NNkmXc5s9fDVZLESaAA55NDzOxhy9GkcIdslK1eN7N6jIeHz"
     crossorigin="anonymous"></script>
@@ -15,15 +15,22 @@
 
 <body>
   <div class="container-fluid main-container mobile-responsive">
-    <div class="row justify-content-center align-items-center custom-row ad_row">
+    <div class="row justify-content-center align-items-center custom-row ad_row ">
       <div class="col-auto">
         <!-- <img src="logo.png" alt="Logo" class="logo"> -->
       </div>
-      <div class="col text-container ">
+      <!-- <div class="col text-container ">
         <p class="scrolling-text">భారతదేశం యొక్క మార్గదర్శక ఆలయం, సందర్శించే ప్రజలందరికీ 24/7 నిరంతరాయ ఆహార
           సేవలను
           అందిస్తోంది India's pioneering temple, offering uninterrupted food services 24/7 to all the people who visit
         </p>
+      </div> -->
+      <div class="col text-container ">
+        <marquee width="100%" direction="left" class="col text-container m-0">
+          భారతదేశం యొక్క మార్గదర్శక ఆలయం, సందర్శించే ప్రజలందరికీ 24/7 నిరంతరాయ ఆహార
+          సేవలను అందిస్తోంది India's pioneering temple, offering uninterrupted food services 24/7 to all the people who
+          visit
+        </marquee>
       </div>
       <div class="col-auto">
         <button class="btn btn-primary btn-donate">Donate Now</button>
@@ -49,20 +56,21 @@
       </div>
     </div>
   </nav>
-  <div class="row " id="temple_story">
-    <div class="col-12 ">
-      <img src="./images/s1.jpg" alt="" class="img-fluid ts_img_1 d-none d-lg-block">
-      <img src="./images/ts_img_1.jfif" alt="" class="img-fluid ts_img_2 d-lg-none">
+  <div class="row gx-0" id="temple_story">
+    <div class="col ">
+      <img src="./images/s1.jpg" alt="" class="img-fluid  ts_img_1 d-none d-lg-block">
+      <img src="./images/ts_img_1.jfif" alt="" class="img-fluid ts_img_2  d-lg-none">
     </div>
   </div>
-  <div class="row" style="background-color: #fffeee; ">
+  <div class="row gx-0" style="background-color: #fffeee; ">
     <div class="col-auto " style="margin: 5% 10% ">
-      <div class="row">
-        <div class="col-lg-7 col-sm-12 justify-content-center">
-          <h5 class="col-8 ts_s1_h5" style="margin-bottom: 1%;font-weight: bold;">Sree Maha Lakshmi Sametha Sri
+      <div class="row ts_r2">
+        <div class="col-lg-7 col-sm-7 justify-content-center gx-0 ">
+          <h5 class="col-10 ts_s1_h5 " style="margin-bottom: 1%;font-weight: bold;margin-left: 0.5rem;">Sree Maha Lakshmi
+            Sametha Sri
             Narayanmaswamy</h5>
-          <h1 class="col-12 text-wrap ts_s1_h1 "
-            style="font-weight: bold;font-size: 4.3rem;line-height: 6rem; width: fit-content;">Be a part of the
+          <h1 class="col-6 col-sm-10 ts_s1_h1 m-0 p-0"
+            style="font-weight: bold;font-size: 4.4rem;line-height: 7rem; width: fit-content;">Be a part of the
             icon in the making by donating one or more square feet of construction.</h1>
         </div>
       </div>

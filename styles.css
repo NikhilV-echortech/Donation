@@ -2,18 +2,17 @@ body {
     overflow-x: hidden;
 }
 
-.ad_row {
-    margin-bottom: 0.7rem;
-}
+
 
 .main-container {
     background-color: #FDEC03;
     padding: 0.75rem;
+    padding-top: 0.5rem;
 }
 
 .custom-row {
     height: 4vh;
-    /* 5% of viewport height */
+
 }
 
 .logo {
@@ -26,11 +25,7 @@ body {
     overflow: hidden;
 }
 
-.scrolling-text {
-    white-space: nowrap;
-    animation: scroll 30s linear infinite;
-    /* Adjust duration as needed */
-}
+
 
 @keyframes scroll {
     0% {
@@ -68,32 +63,24 @@ body {
 
     .custom-row {
         height: 20px;
-        /* Change height to auto for mobile devices */
+
+        margin: 0;
     }
 
     .text-container {
         font-size: 1rem;
-        /* width: 100px; */
         overflow: hidden;
         margin-right: 0;
         margin-top: 0;
     }
 
-    .scrolling-text {
-        white-space: nowrap;
-        animation: scroll 5s linear infinite;
-        /* Remove animation for small devices */
-    }
 
     .btn-donate {
         height: 40%;
         width: 100%;
         font-size: 12px;
-        /* Adjust button width for small devices */
-        margin-top: -1.5rem;
-        /* padding-right: 0.5rem; */
-        /* Add margin to the button */
         font-size: 14px;
+        margin-top: -0.4rem !important;
     }
 
     .main-container {
@@ -117,13 +104,24 @@ body {
     }
 
     .ts_s1_h5 {
-        font-size: 14px;
+        font-size: 1rem;
+        margin-bottom: 1rem;
+        line-height: 1.5rem !important;
+        margin-left: 0.6rem !important;
     }
 
     .ts_s1_h1 {
-        font-size: 21px !important;
+        font-size: 1.7rem !important;
         line-height: normal !important;
+        width: 85vw !important;
+        margin-left: 0.5rem !important;
     }
+
+    .ts_r2 {
+        width: 80vw;
+    }
+
+    #temple_story {}
 }
 
 .navbar {
@@ -138,25 +136,24 @@ body {
     padding-left: 1rem !important;
     padding-right: 1rem !important;
     margin: 0px 1rem;
-    /* Set color of nav links to white */
+
 }
 
 .nav-link:hover {
 
     border-color: white;
-    /* padding: 8px; */
-    /* Increase padding to make the border more visible */
+
 }
 
 .navbar-toggler-icon {
     color: white !important;
-    /* Set background color of toggler icon lines */
+
 }
 
 
 
 .navbar-toggler {
-    border: 1px solid white;
+    border: none;
 }
 
 .navbar-toggler-icon {
