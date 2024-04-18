@@ -45,6 +45,14 @@ body {
 
 }
 
+@media only screen and (min-width: 1025px) {
+
+    .ts_r2 {
+        margin-left: 1rem;
+    }
+}
+
+
 
 @media (max-width: 576px) {
 
@@ -106,19 +114,20 @@ body {
     .ts_s1_h5 {
         font-size: 1rem;
         margin-bottom: 1rem;
-        line-height: 1.5rem !important;
-        margin-left: 0.6rem !important;
+        line-height: 2rem !important;
+
     }
 
     .ts_s1_h1 {
         font-size: 1.7rem !important;
-        line-height: normal !important;
+        line-height: 2.6rem !important;
         width: 85vw !important;
-        margin-left: 0.5rem !important;
+
     }
 
     .ts_r2 {
         width: 80vw;
+        margin-left: 0.2rem;
     }
 
     #temple_story {}
@@ -165,4 +174,26 @@ body {
 .navbar-toggler-icon:focus {
     outline: none;
     box-shadow: none;
+}
+
+@media only screen and (min-width: 768px) and (max-width: 1024px) {
+
+    .ts_s1_h1 {
+        margin-top: 1.5rem !important;
+        font-size: 3rem !important;
+        line-height: 4rem !important;
+        width: 85vw !important;
+        margin-left: 0.5rem !important;
+    }
+
+    .ts_r2 {
+        margin-left: 1rem;
+    }
+
+    
+    .ts_s1_h5 {
+        margin-bottom: 1rem;
+        line-height: 2rem !important;
+
+    }
 }
